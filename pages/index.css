@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    font-size: 62.5%;
+    --color-200:#C4C4CC;
+    --color-100:#E1E1E6;
+    --color-50:#FFF;
+}
 
 body{
     background-image: url(../assets/mountains-universe-1\ 1.png);
@@ -12,8 +18,9 @@ body{
     height: 100vh;
 }
 header{
-    padding: 40px 719px 40px 72px;
+    padding: 4.0rem 71.9rem 4.0rem 7.2rem;
 }
+
 header nav{
     display: flex;
 }
@@ -22,23 +29,23 @@ nav ul{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 43px;
+    gap: 4.3rem;
 }
 
 nav img{
-    margin-right: 43px;
+    margin-right: 4.3rem;
 }
 nav ul li{
     list-style: none;
 }
 
 nav ul li a{
-    color: #C4C4CC;
+    color: var(--color-200);
     font-family: 'Roboto',sans-serif;
-    font-size: 21.667px;
+    font-size: 2.2rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 21.667px; /* 100% */
+    line-height: 2.2rem; /* 100% */
     text-decoration: none;
 }
 
@@ -50,13 +57,13 @@ nav ul li a{
     text-align: center;
 }
 #centroDaTela h1{
-    color:  #E1E1E6;
+    color: var(--color-100);
     font-family: 'Roboto',sans-serif;
-    font-size: 48px;
+    font-size: 4.8rem;
     font-style: normal;
     font-weight: 700;
     line-height: 125%; /* 60px */
-    margin-bottom: 24px;
+    margin-bottom: 2.4rem;
 }
 
 #img {
@@ -89,10 +96,10 @@ nav ul li a{
 }
 
 .active{
-    color: #FFF;
+    color: var(--color-50);
     font-family: 'Roboto',sans-serif;
-    font-size: 24px;
+    font-size: 2.4rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 21.667px; 
+    line-height: 2.2rem; 
 }
