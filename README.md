@@ -1,7 +1,5 @@
 <h1 align="center"> SPA Universe </h1>
 
-
-
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -16,17 +14,7 @@
 <br>
 
 <p align="center">
-  <img alt="imagem da primeira página do projeto" src="assets/Página 1.png" width="100%">
-</p>
-<br>
-
-<p align="center">
-  <img alt="imagem da segunda página do projeto" src="assets/Página 2.png" width="100%">
-</p>
-<br>
-
-<p align="center">
-  <img alt="imagem da terceira página do projeto" src="assets/Página 3.png" width="100%">
+  <img alt="imagem da capa do projeto SPA Universe" src="assets/Capa.png" width="100%">
 </p>
 
 
